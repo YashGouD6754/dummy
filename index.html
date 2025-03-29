@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Demo Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff7f50, #6a5acd);
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            background: linear-gradient(to right, #ff6347, #32cd32);
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            line-height: 1.5;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #32cd32;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .footer a {
+            color: #ff6347;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #32cd32;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Colorful Demo</h1>
+
+    <div class="container">
+        <p>Experience the vibrant world of colors with a touch of modern design. This is a simple demonstration of how CSS can make a webpage more engaging and colorful.</p>
+        <button class="button">Click Me</button>
+    </div>
+
+    <div class="footer">
+        <p>Created with ❤️ by <a href="https://yourwebsite.com" target="_blank">Your Name</a></p>
+    </div>
+
+</body>
+</html>
